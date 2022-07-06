@@ -1,0 +1,19 @@
+p{
+    color:darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color:maroon;
+    text-decoration: underline;
+}
+
+img[alt] {
+   border-radius: 50%;
+   border-style:double;
+   border-color: darkred;
+ }
+
+ div {
+      background-color:indianred;
+   
+ }
