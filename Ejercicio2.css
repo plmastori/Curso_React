@@ -1,0 +1,29 @@
+.contenedor{
+	border-style:solid;
+	display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+	width: 900px;
+	height: 900px;
+	align-items: center;
+	}
+
+.item{
+	background-color: #ccc;
+	width: 300px;
+	height: 300px;
+	font-size: 30px;	
+}
+
+#caja1{
+    background-color: red;
+	
+}
+#caja2{
+    background-color: blue;
+	
+}
+#caja3{
+    background-color: green;
+	
+}
