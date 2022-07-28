@@ -6,6 +6,7 @@
 	width: 900px;
 	height: 900px;
 	
+	
 }
 
 .item{
@@ -13,14 +14,27 @@
 	width: 300px;
 	height: 300px;	
 	font-size: 30px;
+	color: white;
 }
 
 #caja1{
     background-color: red;	
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	color: white;
 }
 #caja2{
     background-color: blue;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	color: white;
 }
 #caja3{
     background-color: green;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	color: white;
 }
