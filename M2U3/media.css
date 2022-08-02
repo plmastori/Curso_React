@@ -1,0 +1,39 @@
+@media screen {
+	* {
+		float: none;
+	}
+	li {
+		margin: 10px;
+	}
+	p {
+		margin-left: 10px;
+	}
+	h2 {
+		margin-left: 10px;
+        color: blue;
+	}
+    #contenedor {
+		width:100%;
+		background: greenyellow;
+		overflow: hidden;
+	}
+
+	nav {
+		background: blueviolet;
+		width: 100%;	
+	}
+	a {
+		text-decoration: none;
+		color: black;
+		margin-top: 5px;
+	}
+	section {		
+		width: 100%;
+		margin: 0;
+		border: #000 solid 1px;
+	}
+	aside {
+		width: 100%;
+		border: #000 solid 1px;	
+	}
+}
