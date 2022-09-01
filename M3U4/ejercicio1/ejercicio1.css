@@ -1,0 +1,32 @@
+.boton{
+    width: 100px;
+	height: 100px;		
+    align-items: center;
+    justify-content: center;
+	color: white;
+    cursor: pointer;
+}
+
+.alternar1 {
+    background: red;    
+}
+.alternar1.activo {
+    background: pink;
+    color: black;
+}
+
+.alternar2 {
+    background: green;    
+}
+.alternar2.activo {
+    background: goldenrod;
+    color: black;
+}
+
+.alternar3 {
+    background: blue;    
+}
+.alternar3.activo {
+    background: grey;
+    color: white;
+}

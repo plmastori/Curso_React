@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ejercicio1.css">
+</head>
+
+<body class="fondo">
+    <h1>Ejercicio 1</h1>
+    <button class="boton alternar1" id="caja1">Cuadrado1</button>
+    <button class="boton alternar2" id="caja2">Cuadrado2</button>
+    <button class="boton alternar3" id="caja3">Cuadrado3</button>
+
+    <script>
+        const alternar1 = document.getElementsByClassName('alternar1')[0];
+        alternar1.addEventListener('click', function (e) {
+            e.currentTarget.classList.toggle('activo');
+            document.bgColor = "red";
+        });
+    
+        const alternar2 = document.getElementsByClassName('alternar2')[0];
+        alternar2.addEventListener('click', function (e) {
+            e.currentTarget.classList.toggle('activo');
+            document.bgColor = "green";
+        });
+
+        const alternar3 = document.getElementsByClassName('alternar3')[0];
+        alternar3.addEventListener('click', function (e) {
+            e.currentTarget.classList.toggle('activo');
+            document.bgColor = "blue";
+        });
+
+   
+    </script>
+</body>
+
+</html>
