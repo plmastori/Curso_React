@@ -1,0 +1,18 @@
+<h1>{{title}}</h1>
+{{#if conocido}}
+<p>Bienvenido {{nombre}}!!, equipo? </p>
+
+<button style="background-color: #FFCE33 ; font-weight:bold;">Team Amarillo</p> <a href="/salir">Volver...</a></button>
+
+<button style="background-color: #33FFC4 ; font-weight:bold;">Team Verde</p> <a href="/salir">Volver...</a></button>
+{{/if}}
+
+{{#unless conocido}}
+<p>Como te llamas?</p>
+<form action="/ingresar" method="post">
+    <input type="text" name="nombre"><button  style="background-color: #eb94d0 ; font-weight:bold;">ingresar</button>
+</form>
+{{/unless}}
+
+
+
